@@ -1,5 +1,232 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+  font-size: 16px;
+}
+
+a {
+  color: #252525;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  max-width: 1000px;
+  min-width: 280px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.large-header {
+  font-size: 105px;
+  text-align: center;
+}
+
+.medium-header {
+  font-size: 55px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.header {
+  margin: 20px 0;
+  font-weight: 300;
+  font-size: 35px;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.home-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navbar {
+  font-size: 12px;
+  text-transform: uppercase;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.nav-links a {
+  padding: 0 10px;
+}
+
+.two-column {
+  display: flex;
+}
+
+.panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 100px;
+}
+
+.info-list {
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.info-list li {
+  list-style-type: none;
+  font-size: 33px;
+  margin: 20px 0;
+}
+
+.info-list div {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.sidebar-list {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  padding: 0;
+}
+
+.sidebar-list a {
+  line-height: 25px;
+}
+
+.sidebar-instruction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.articles {
+  margin: 0;
+  padding: 0;
+}
+
+.articles li {
+  font-size: 28px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  list-style-type: none;
+}
+
+.article {
+  margin: 20px;
+  padding: 20px;
+}
+
+.article p {
+  line-height: 35px;
+  font-size: 20px;
+}
+
+.article-title {
+  margin: 0;
+  font-weight: 300;
+}
+
+.article-date {
+  font-size: 14px;
+  padding: 0;
+}
+
+.btn-main {
+  max-width: 210px;
+  min-width: 150px;
+  padding: 10px;
+  border: 2px solid black;
+  color: black;
+  text-align: center;
+}
+
+.btn-main:hover {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.championships {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.championships li {
+  list-style-type: none;
+  margin: 0 10px;
+}
+
+@media (max-width: 680px) {
+  .container {
+    padding: 8px;
+  }
+
+  .large-header {
+    font-size: 60px;
+  }
+
+  .medium-header {
+    font-size: 40px;
+  }
+
+  .header {
+    font-size: 25px;
+    margin: 10px 0;
+  }
+
+  .avatar {
+    width: 125px;
+    border-radius: 62.5px;
+  }
+
+  .home-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-list li {
+    font-size: 20px;
+  }
+
+  .info-list div {
+    font-size: 16px;
+  }
+  .championships li {
+    font-size: 12px;
+  }
+
+  .sidebar-list {
+    font-size: 12px;
+  }
+
+  .article {
+    padding: 5px;
+    margin: 5px;
+  }
 }
