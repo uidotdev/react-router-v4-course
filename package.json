@@ -2,6 +2,7 @@
   "name": "reactrouter-course-project",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "https://tylermcginnis.com/projects/router-league/",
   "dependencies": {
     "prop-types": "^15.6.0",
     "query-string": "^5.0.1",
