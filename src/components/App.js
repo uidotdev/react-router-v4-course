@@ -47,7 +47,7 @@ const Articles = (props) => (
 class App extends Component {
   render() {
     return (
-      <Router basename={'/projects/router-league'}>
+      <Router>
         <div>
           <Navbar />
 
