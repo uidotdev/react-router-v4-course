@@ -5,7 +5,7 @@ React Router Course Project
 
 #### This is the repository for the project we'll build together during TylerMcGinnis.com's "React Router" course, for more information on the course see [tylermcginnis.com/courses](https://tylermcginnis.com/courses)
 
-## You can see the final project [here](https://tylermcginnis.com/projects/router-league/)
+## You can see the final project [here](https://ui-hash-history-basketball-league.netlify.com/)
 
 The main idea of this app is you have a league of teams and you can view information about each team like roster, articles, etc.
 
