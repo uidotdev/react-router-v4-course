@@ -24,7 +24,7 @@ const players = [
   {name: 'Tom Occhino', position: 'Point Guard', teamId: 'koalas', number: 87, avatar: 'https://avatars.io/twitter/tomocchino', rpg: 3, spg: 4, apg: 8, ppg: 12},
   {name: 'Aimee Knight', position: 'Shooting Guard', teamId: 'koalas', number: 26, avatar: 'https://avatars.io/twitter/Aimee_Knight', rpg: 5, spg: 2, apg: 4, ppg: 15},
   {name: 'Brian Holt', position: 'Shooting Forward', teamId: 'koalas', number: 36, avatar: 'https://avatars.io/twitter/holtbt', rpg: 6, spg: 2, apg: 3, ppg: 13},
-  {name: 'Ben Alpert', position: 'Power Forward', teamId: 'koalas', number: 54, avatar: 'https://avatars.io/twitter/soprano', rpg: 8, spg: 1, apg: 2, ppg: 10},
+  {name: 'Sophie Alpert', position: 'Power Forward', teamId: 'koalas', number: 54, avatar: 'https://avatars.io/twitter/sophiebits', rpg: 8, spg: 1, apg: 2, ppg: 10},
   {name: 'Ken Wheeler', position: 'Center', teamId: 'koalas', number: 69, avatar: 'https://avatars.io/twitter/ken_wheeler', rpg: 10, spg: 1, apg: 1, ppg: 10},
 ]
 
